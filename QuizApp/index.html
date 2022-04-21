@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./sty.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+	<!-- <div class="panel">
+		<div class="result">
+
+		</div>
+		<div class="question-container" id="question">
+			Question goes here.
+		</div>
+		<div class="option-container">
+			<button class="option" onclick="" id="op1" >option1</button>
+	
+			<button class="option" id="op2" >option2</button>
+	
+			<button class="option" id="op3">option3</button>
+	
+			<button class="option" id="op4">option4</button>
+		</div>
+		<div class="navigation">
+			<button class="evaluate">Evaluate</button>
+			<button class="next">Next</button>
+		</div>
+	</div> -->
+
+    <!-- quiz jbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdf -->
+
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">Queation Text </h2>
+            <ul>
+            <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="a_text">answer</label>
+            </li>
+
+            <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="b_text">answer</label>
+            </li>
+
+            <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="c_text">answer</label>
+            </li>
+
+            <li>
+                <input type="radio" name="answer" id="d" class="answer">
+                <label for="d" id="d_text">answer</label>
+            </li>
+            </ul>
+            
+        </div>
+ <button id="submit">submit</button>
+
+ 
+       
+    </div>
+
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+   
+	<script src="./app.js"></script>
+</body>
+</html>
